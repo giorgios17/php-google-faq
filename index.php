@@ -39,6 +39,4 @@ foreach($faqs as $faq ){
 };
 
 ?>
-<style>
-<?php include 'main.css'; ?>
-</style>
+<?php include 'header.php'; ?>

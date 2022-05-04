@@ -1,11 +1,26 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-}
-
 body {
     width: 50%;
     margin: auto;
+}
+
+h2 {
+    color: #3c4043;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    padding: 64px 0 0 0;
+}
+
+ul,
+ol {
+    margin: 0 0 0 16px;
+    padding: 0;
+}
+
+li {
+    line-height: 24px;
+    padding-left: 16px;
+    padding-top: 12px;
 }
 
 a {
