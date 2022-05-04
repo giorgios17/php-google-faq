@@ -1,4 +1,19 @@
-<?php 
+<div class="header">
+    <div class="logo-container">
+        <img src="https://1000marche.net/wp-content/uploads/2020/03/Google-logo.png" alt="">
+        <span><a href="">Privacy e termini</a></span>
+    </div>
+    <ul class="nav-list">
+        <li><a href="">Introduzione</a></li>
+        <li><a href="">Norme sulla privacy</a></li>
+        <li><a href="">Termini di servizio</a></li>
+        <li><a href="">Tecnologie</a></li>
+        <li><a id="active-nav" href="">Domande frequenti</a></li>
+    </ul>
+</div>
+
+<div class="container">
+    <?php 
 
 $faqs = [
 [
@@ -39,4 +54,5 @@ foreach($faqs as $faq ){
 };
 
 ?>
+</div>
 <?php include 'header.php'; ?>
